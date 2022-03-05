@@ -1,0 +1,48 @@
+.my-navbar {
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+
+.div-1 {
+  display: flex;
+  width: 30%;
+  justify-content: space-evenly;
+  font-size: 20px;
+}
+
+.marvel {
+  color: white;
+  text-decoration: none;
+}
+
+.user-logout-div {
+  display: flex;
+  width: 15%;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.ul-nav {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  color: white;
+  align-items: center;
+  height: 100%;
+  font-size: 20px;
+}
+
+.ul-nav button {
+  color: red;
+  background-color: black;
+  border: none;
+  outline: none;
+  transition: all 300ms ease;
+}
+
+.ul-nav button:hover {
+  transform: scale(1.1);
+}

@@ -2,6 +2,7 @@ import { useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import { AuthContext } from "../../auth/authContext";
 import { types } from "../../types/types";
+import "./login.css";
 
 export const LoginScreen = () => {
   const navigate = useNavigate();
@@ -25,12 +26,12 @@ export const LoginScreen = () => {
   };
 
   return (
-    <div className="container mt-5 ">
-      <h1>Login to see Heros</h1>
-      <hr />
-      <button className="btn btn-primary" onClick={handleLogin}>
-        Login
-      </button>
+    <div className="login">
+      <div className="login-div">
+        <h1>Login to see Heros</h1>
+        <hr />
+        <button onClick={handleLogin}>Login</button>
+      </div>
     </div>
   );
 };
